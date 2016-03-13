@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.1">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>819</x>
+      <y>203</y>
+      <w>168</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Restaurant
+-
+-clients: ArrayList&lt;Client&gt;
+-meals: ArrayList&lt;Meal&gt;
+-manager: Manager
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>378</y>
+      <w>154</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>Client
+-
+-contactInfo: Map(String, String)
+-favoriteMeals: ArrayList&lt;String&gt;
+-
++Client()
++get()
++set()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>168</x>
+      <y>539</y>
+      <w>154</w>
+      <h>161</h>
+    </coordinates>
+    <panel_attributes>Promotion
+-
+-receiveGeneralized: boolean
+-receivePersonalized: boolean
+-wayOfContact: String
+-
++get()
++set()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>287</x>
+      <y>392</y>
+      <w>147</w>
+      <h>161</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+nestedClass</panel_attributes>
+    <additional_attributes>190.0;20.0;10.0;20.0;10.0;210.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>665</x>
+      <y>406</y>
+      <w>182</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>&lt;Interface&gt; FidelityCard
+-
++giveAccess()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>658</x>
+      <y>539</y>
+      <w>70</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>574</x>
+      <y>616</y>
+      <w>126</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>PointFidelityCard</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>805</x>
+      <y>616</y>
+      <w>140</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>BasicFidelityCard</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>805</x>
+      <y>539</y>
+      <w>84</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>385</y>
+      <w>140</w>
+      <h>147</h>
+    </coordinates>
+    <panel_attributes>Manager
+-
+-
++setMeal(Meal)
++setMeal()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>287</x>
+      <y>175</y>
+      <w>196</w>
+      <h>147</h>
+    </coordinates>
+    <panel_attributes>User
+-
+-userName:String
+-password:JPasswordField
+-firstName:String
+-lastName:String
+-
++User(String, String, String, Password)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>476</x>
+      <y>287</y>
+      <w>63</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>238</x>
+      <y>294</y>
+      <w>56</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+</diagram>
