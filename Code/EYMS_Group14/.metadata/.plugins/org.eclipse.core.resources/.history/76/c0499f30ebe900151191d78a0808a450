@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package EYMS;
+
+/**
+ * @author Christopher
+ *
+ */
+public class LotteryFidelityCard implements FidelityCard {
+
+	/* (non-Javadoc)
+	 * @see EYMS.FidelityCard#giveAcess()
+	 */
+	@Override
+	public void giveAcess() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
