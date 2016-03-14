@@ -1,0 +1,11 @@
+package EYMS;
+
+import javax.swing.JPasswordField;
+
+public abstract class User {
+	private String userName;
+	private String firstName;
+	private String lastName;
+	private JPasswordField password;
+	
+}

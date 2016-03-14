@@ -1,0 +1,6 @@
+package Password;
+
+public class PasswordTest {
+	private String userName;
+	private JPasswordField password;
+}

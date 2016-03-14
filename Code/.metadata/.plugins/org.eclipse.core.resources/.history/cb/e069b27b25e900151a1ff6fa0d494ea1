@@ -1,0 +1,8 @@
+package Password;
+
+import javax.swing.JPasswordField;
+
+public class PasswordTest {
+	private String userName;
+	private JPasswordField password;
+}
