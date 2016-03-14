@@ -1,0 +1,6 @@
+package EYMS;
+
+public interface User {
+	public String username;
+	
+}

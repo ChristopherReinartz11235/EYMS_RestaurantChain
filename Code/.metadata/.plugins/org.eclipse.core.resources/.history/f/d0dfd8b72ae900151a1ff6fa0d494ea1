@@ -1,0 +1,5 @@
+package EYMS;
+
+public class PointFidelityCard implements FidelityCard{
+
+}

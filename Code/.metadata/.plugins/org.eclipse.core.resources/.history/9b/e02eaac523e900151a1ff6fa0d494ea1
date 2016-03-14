@@ -1,0 +1,7 @@
+package EYMS;
+
+public class Promotion {
+	private boolean receiveGeneralized;
+	private boolean receivePeronalized;
+	private String wayOfContacting
+}

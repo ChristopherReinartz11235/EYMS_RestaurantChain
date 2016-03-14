@@ -1,0 +1,18 @@
+package EYMS;
+
+import javax.swing.*;
+
+public abstract class User {
+	private String userName;
+	private String firstName;
+	private String lastName;
+	private JPasswordField password;
+	public User(String userName, String firstName, String lastName, JPasswordField password) {
+		super();
+		this.userName = userName;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.password = password;
+	}
+	
+}
