@@ -1,0 +1,22 @@
+/**
+ * @author babbar
+ */
+package EYMS;
+
+import javax.swing.*;
+
+public abstract class User {
+	private String userName;
+	private String firstName;
+	private String lastName;
+	private String password;
+	//private JPasswordField password;
+	public User(String userName, String firstName, String lastName, String password) {
+		super();
+		this.userName = userName;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.password = password;
+	}
+	
+}

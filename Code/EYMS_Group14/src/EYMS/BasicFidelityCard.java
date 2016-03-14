@@ -1,5 +1,9 @@
 package EYMS;
-
+/**
+ * 
+ * @author babbar
+ *
+ */
 public class BasicFidelityCard implements FidelityCard{
 
 	@Override

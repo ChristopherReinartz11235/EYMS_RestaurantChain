@@ -1,0 +1,20 @@
+package EYMS;
+
+import javax.swing.JPasswordField;
+
+public class Manager extends User {
+
+	public Manager(String userName, String firstName, String lastName, String password) {
+		super(userName, firstName, lastName, password);
+		// TODO Auto-generated constructor stub
+	}
+	void seeMeals(){
+		
+	}
+	
+	@Override
+	public Meal accessMeal() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

@@ -1,8 +1,10 @@
 package EYMS;
-
+/**
+ * @author babbar
+ */
 import java.util.ArrayList;
 import java.util.Map;
-import javax.swing.JPasswordField;
+//import javax.swing.JPasswordField;
 
 public class Client extends User {
 	private Map<String, String> contactInfo;
@@ -16,9 +18,21 @@ public class Client extends User {
 		private String wayOfContacting;
 	}
 	
-	public Client(String userName, String firstName, String lastName, JPasswordField password) {
+	public Client(String userName, String firstName, String lastName, String password) {
 		super(userName, firstName, lastName, password);
 		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public Meal accessMeal() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setUserName() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
